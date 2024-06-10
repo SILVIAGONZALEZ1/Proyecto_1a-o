@@ -1,0 +1,540 @@
+* {
+	box-sizing: border-box
+	}
+	
+	:root {
+	--max: 18rem
+	}
+
+
+
+
+
+
+
+
+BODY  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 13px;
+	background-color : #EFFBF2;
+        margin:0;
+	padding:0;
+	
+}
+.body  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 13px;
+	background-color : #EFFBF2;
+    margin:0; 
+	padding:0;
+	border:#000000;
+	min-height: 100%;
+	
+}
+
+.table {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 13px;
+	color: #0080FF;
+	background-color: transparent;
+	background: url(imagen/fondo.jpg);
+	azimuth: center;
+	border: #0080FF;
+}
+
+
+.table_sil {
+	width:"50%";
+	border:"0";
+	
+	
+}
+
+.table_sil2 {
+	width:"100%"; 
+	border:"1";
+	font-style: "background-color:#C5C5C5";
+	}
+
+	
+.encabezadochico {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 13px;
+	color: Black;
+	azimuth: center;
+	background: darkgrey;
+	azimuth: center;
+	border: 2px groove black;
+	border-color: ButtonText;
+	border-style: ridge;
+}
+.encabezadocelda {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 13px;
+	color: Black;
+	background-color: transparent;
+	background: url(imagen/fondo.jpg);
+	azimuth: center;
+	text-decoration : underline;
+}
+.encabezado {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 13px;
+	color: Black;
+	background: darkgray;
+	azimuth: center;
+	border: 2px groove black;
+	border-color: ButtonText;
+	border-style: ridge;
+}
+.borderext {
+	font-family: 'Courier New', Courier, monospace;
+	vertical-align: middle;
+	border: 1px groove black;
+	border-color: Scrollbar;
+	border-style: ridge;
+}	
+.cuerpofecha	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: middle;
+	azimuth: left;
+	background-color: black;
+}
+.cuerpotit	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	color: antiqueblack;
+	background: #0080FF;
+	background-color: #0080FF;
+	vertical-align: middle;
+	azimuth: left;
+	border: 1px ridge #0080FF;
+	border-color: black;
+	border-style: ridge;
+}
+.cuerposubtit	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	background: antiqueblack;
+	background-color: #0080FF;
+	vertical-align: middle;
+	azimuth: left;
+	border: 0px ridge black;
+	border-color: black;
+	border-style: ridge;
+}
+.cuerpolinea	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: url(imagen/linea.jpg);
+	vertical-align: middle;
+	azimuth: left;
+	background-color: black;
+}
+.cuerpolinea_sub	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: url(linea_sub.JPG);
+	vertical-align: middle;
+	azimuth: left;
+	background-color: black;
+}
+.cuerpoprint	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: top;
+	azimuth: left;
+	background-color: black;
+}	
+.cuerpo	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: middle;
+	azimuth: left;
+	background-color: black;
+}	
+.cuerpomenu	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: top;
+	azimuth: center;
+	background-color: black;
+}
+.conten	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: middle;
+	azimuth: left;
+}
+.contenpull	{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: middle;
+	azimuth: left;
+}
+.contenpulllist	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: middle;
+	azimuth: left;
+}
+.input	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: black;
+	vertical-align: middle;
+	azimuth: left;
+}
+.contennum	{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+	background: black;
+	vertical-align: middle;
+	azimuth: right;
+}
+.celda  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: Black;
+	background-color: #E0E0E0;
+	font-weight: normal;
+	text-align: center;
+	azimuth: center;
+	font-style: normal;
+}
+.border {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: left;
+	background: transparent;
+	vertical-align: middle;
+	border: 1px groove Black;
+	border-color: Black;
+	border-style: ridge;
+}
+.border1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	background: transparent;
+	vertical-align: middle;
+	border: 1px groove Black;
+	border-color: Black;
+	border-style: ridge;
+}
+.border5 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+	background: Black;
+	vertical-align: middle;
+	border: 1px solid Black;
+	border-color: black black Black Black;
+	border-style: solid solid;
+	background-color : Black;
+	display : block;
+}
+.asterisco {
+	FONT-SIZE: 12px; 
+	VERTICAL-ALIGN: -2px; 
+	COLOR: #f68622; 
+	FONT-FAMILY: verdana, Helvetica, sans-serif
+}
+.botonb{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: InfoText;
+	text-align: center;
+	background-color: ThreedFace;
+	background-attachment: inherit;
+	border-bottom-color: ThreedFace;
+	display: inline;
+	azimuth: center;
+	vertical-align: middle;
+	border: 150px hidden ThreedFace;
+	cursor: pointer;
+	border-bottom-style : hidden;
+	border-style : hidden;
+}
+.boton{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 13px;
+	color: InfoText;
+	text-align: center;
+	background-color: ThreedFace;
+	background-attachment: inherit;
+	border-bottom-color: ThreedFace;
+	display: inline;
+	azimuth: center;
+	vertical-align: middle;
+}
+.botonall{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 9px;
+	color: InfoText;
+	text-align: center;
+	background-color: ThreedFace;
+	background-attachment: inherit;
+	border-bottom-color: ThreedFace;
+	display: inline;
+	azimuth: center;
+	vertical-align: middle;
+}
+.sub  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	color: Black;
+	font-weight: normal;
+	text-align: right;
+	azimuth: left;
+	vertical-align: middle;
+}
+.subtit  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	color: Black;
+	font-weight: normal;
+	text-align: left;
+	azimuth: left;
+	vertical-align: middle;
+}
+.tit1  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	color: black;
+	background-color: #0080FF ;
+	font-weight: normal;
+	text-align: left;
+	azimuth: left;
+	vertical-align: middle;
+}
+.tit2  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	color: Black;
+	background-color: transparent;
+	font-weight: normal;
+	text-align: left;
+	azimuth: left;
+	vertical-align: middle;
+}
+.tit3  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: black;
+	background-color: #0080FF;
+	font-weight: normal;
+	text-align: center;
+	azimuth: center;
+	vertical-align: middle;
+}
+.tit  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+	color: black;
+	background-color: #0080FF;
+	font-weight: normal;
+	text-align: center;
+	azimuth: center;
+	vertical-align: middle;
+}
+.titulolist {
+	color : #000000;
+	font-size : 10px;
+	font-weight :bold;
+}
+.listanone {
+	color : Black;
+	font-family : Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight :normal;
+	text-align: left;
+	background-color : #f5f5f5;
+}
+.alerta{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: #FFFF33;
+	font-weight: normal;
+	text-align: center;
+}
+.tdtit  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: Red;
+	background-image: none;
+	background-color: black;
+	font-weight: normal;
+	text-align: center;
+	azimuth: center;
+	vertical-align: middle;
+}
+INPUT  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 12px;
+	background: white;
+	border: 1px solid white;
+	cursor: pointer;
+}
+TD  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	background-color: #0080FF;
+	text-align: center;
+	azimuth: center;
+}
+.td  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: inherit;
+	background-color: #0080FF;
+	font-weight: normal;
+	text-align: center;
+	azimuth: center;
+	font-style: normal;
+}
+.td1  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: inherit;
+	background-color: #0080FF;
+	font-weight: normal;
+	text-align: left;
+	azimuth: center;
+	font-style: normal;
+}
+.td2  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+	color: inherit;
+	background-color: #0080FF;
+	font-weight: normal;
+	text-align: center;
+	azimuth: center;
+	font-style: normal;
+}
+.campoinvisible  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0px;
+	color: #0080FF;
+	background-color: white;
+	font-weight: inherit;
+	text-align: inherit;
+	azimuth: center;
+	font-style: inherit;
+	border-left : 0px none white;
+	border-right : 0px none white;
+	border-bottom : 0px none white;
+	border-top : 0px none white;
+}
+.menu  {
+	background-color: #8FBC8F;
+}
+
+
+
+.contenedor_central {
+	align-content: center;
+}
+
+
+/* desde aca empece a meter css */
+.header {
+    width: 100%;	
+    height: 200px;
+    background-image: url('img/headerr.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 200px; /* Ajuste de altura para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 150px; /* Ajuste de altura para pantallas móviles */
+    }
+}
+
+
+.footer {
+    width: 100%;	
+    height: 300px;
+    background-image: url('img/footerr.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 200px; /* Ajuste de altura para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 150px; /* Ajuste de altura para pantallas móviles */
+    }
+}
+.card {
+	width: var(--max)
+	}
+	
+	.card-img-top {
+	width: 100%;
+	max-width: var(--max);
+	height: calc(var(--max));
+	object-fit: cover;
+	} 

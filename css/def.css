@@ -1,0 +1,56 @@
+#para1
+{
+  font-family: Arial, Helvetica, sans-serif;
+
+text-align:center;
+color:black;
+} 
+
+#para2
+{
+background-color:grey;
+color:white;
+}
+#fond-table
+{
+	background-color:#666;
+}
+#margin
+{
+margin-top:20%;
+}
+#index-margin
+{
+margin-top:50%;
+}
+#text-align
+{
+ text-align:center;
+font:bold 18px ;
+}
+#text-align-esp{
+width:"100%"
+
+}
+#table-col-left{
+background-color:#0066CC;
+color:white;
+text-align :center;
+font:bold 18px ; 
+width: 0%;
+}
+#restore{
+border: 1px solid #dddddd;
+  border-collapse: separate;
+  
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+		  }
+		  
+#title-top{
+background-color:#B2C9DF;
+ text-align:center;
+font:bold 18px ;
+}
